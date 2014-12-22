@@ -26,4 +26,18 @@ hooks.deployNewCommit()
 hooks.deployWith("commit comment with deploy")
 
 hooks.deployWith(/.*(comment)./*)
+
+hooks.branch('deploy').deployNewTag()
+
+## hooks.branch('deploy').xxx  
+## ...
+
 ```
+
+## Feature
+
+Support promiss
+
+Support deploy statu email  notification
+
+and some other feature
