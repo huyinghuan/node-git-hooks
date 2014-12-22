@@ -27,9 +27,9 @@ hooks.deployWith("commit comment with deploy")
 
 hooks.deployWith(/.*(comment)./*)
 
-hooks.branch('deploy').deployNewTag()
+hooks.branch('deploy').deployNewCommit()
 
-## hooks.branch('deploy').xxx  
+## hooks.branch('deploy').deployWith(comment)  
 ## ...
 
 ```
