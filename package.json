@@ -1,0 +1,33 @@
+{
+  "name": "node-git-hooks",
+  "version": "0.0.1",
+  "description": "git hooks tools for deploy nodejs project",
+  "author": "huyinghuan",
+  "homepage": "https://github.com/huyinghuan/node-git-hooks",
+  "keywords": [
+    "git hooks",
+    "git-hooks",
+    "node deploy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huyinghuan/node-git-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huyinghuan/node-git-hooks/issues",
+    "email": "ec.huyinghuan@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://gist.githubusercontent.com/huyinghuan/a03ffed8877dc6822275/raw/4a78514616df437e15daa5a010ade50f5e882e7c/LICENSE"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "promise": "^6.0.1"
+  },
+  "pretest": "coffee --no-header -o ./lib -c src/"
+}
